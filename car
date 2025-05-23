@@ -1,0 +1,10 @@
+class car:
+    def __init__(self, color, mileage):
+        self.color=color
+        self.mileage=mileage
+        color=blue
+        mileage=20000
+    def __str__(self):
+        return f"The {color} car has {mileage} miles"
+blue_car=car(blue, 20000)
+print(blue_car)
